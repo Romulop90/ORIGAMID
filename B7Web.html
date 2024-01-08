@@ -8,8 +8,8 @@
 </head>
 
 <body>
-<!-- type="text" tem duas variacoes o email e password -->
-<!-- a grande maioria dos input precisa de um (value="") -->
+  <!-- type="text" tem duas variacoes o email e password -->
+  <!-- a grande maioria dos input precisa de um (value="") -->
   <form action="" method="get">
     <input type="text" name="usuario" value="Digite seu nome">
     <input type="password">
@@ -18,7 +18,7 @@
     <input type="radio" name="Sexo"> <!-- celecao -->
     <input type="submit"> <!-- botao -->
     <input type="email"> <!-- email -->
-<!-- outras variacoes do text -->
+    <!-- outras variacoes do text -->
     <input type="color"> <!-- palheta de cores -->
     <input type="date"> <!-- dia, mes e ano -->
     <input type="datetime-local"> <!-- dia, mes, ano e  hora -->
@@ -28,15 +28,29 @@
     <input type="search">
     <input type="tel"> <!-- numero de telefone -->
     <input type="time"> <!-- apenas a hora -->
-    <input type="url">  <!-- envia url -->
+    <input type="url"> <!-- envia url -->
     <input type="week"> <!-- seleciona a uma semana do ano -->
 
-    <select name="order" id="">  <!-- mostra as opcoes deponiveis -->
-    <option value="bestseller ">Mais Vendidos</option>
-    <option value="last">Recentes</option>
-    </select> 
+    <!-- size="2" multiple e para multipla escolha e selected e o atibuto para deixar 
+      aquela opcao em primeira escolha -->
+    <select name="order" id="" size="2" multiple> <!-- mostra as opcoes deponiveis -->
+      <option value="bestseller ">Mais Vendidos</option>
+      <option value="last" selected>Recentes</option>
+    </select>
+
+
   </form>
 
+  <!-- sempre prencher o name -->
+  <form action="">
+    <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+    
+    <!-- Diferenca de button para o submit e que o button pode ser 
+      usado tanto dentro de formulario(form) quanto fora dele, 
+      para outras acoes especificas -->
+    <button>clique aqui</button>
+
+  </form>
 </body>
 
 </html>
