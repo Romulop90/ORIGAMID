@@ -1,0 +1,60 @@
+form{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+fieldset{
+  background-color: azure;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 250px;
+  border: 2px solid lightgreen;
+}
+legend{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  background-color: azure;
+  color: darkseagreen;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+}
+
+input[type=text], [type=number]{
+margin-bottom: 10px;
+background-color: azure;
+outline: 0;
+border: 2px solid lightgreen;
+}
+
+input[type=number]{
+  width: 169px;
+}
+
+input[type=submit]{
+  width: 278px;
+  height: 30px;
+  background-color: azure;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  color: darkseagreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover{
+  background-color: darkslategrey;
+  border-radius: 5px;
+}
+
+label{
+  color: darkseagreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}

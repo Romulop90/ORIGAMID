@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="B7Web02.css">
 </head>
+
 <body>
-  <form action="">
-<!-- fieldset significa conjunto de campos -->
+  <!-- sempre que criar um input type="file" tem quer colocar no form a propriedade (enctype) 
+    para criar um tipo de encriptação para os arquivos serem convertidos e enviados em bytes-->
+  <form method="get" action="blblblbl.php" enctype="multipart/form-data">
+    <!-- hidden = escondido -->
+    <input type="hidden" name="Country" value="BR">
+    <!-- fieldset significa conjunto de campos -->
     <fieldset>
       <legend>Dados Pessoais</legend>
-      <label for="">
+      <label>
         Primero Nome: <br>
-        <input type="text" name="name">
+        <!-- minlength = o minimo de caracteres 
+             maxlength = o maximo de caracteres-->
+        <input type="text" name="name" required minlength="20" maxlength="25">
       </label><br>
-      <label for="">
+      <label>
         Sobrenome: <br>
-        <input type="text" name="lastname">
+        <!-- required =  nessesario ser preenchido -->
+        <input type="text" name="lastname" minlength="20">
+      </label><br>
+
+      <label>
+        Idade: <br>
+        <!-- step =  o numero a ser pulado definido no step -->
+        <input type="number" name="age" required min="18" max="85">
       </label><br>
     </fieldset>
 
     <fieldset>
       <legend>Dados Profissionais</legend>
-      <label for="">
+      <label>
         Nome da empresa: <br>
-        <input type="text" name="companyname">
+        <input type="text" name="companyname" required>
       </label><br>
-      <label for="">
+
+      <label>
         Cargo na empresa: <br>
         <input type="text" name="companyjobtitle">
       </label><br>
+
+      <label>
+        Foto: <br>
+        <!-- accept="" = vai criar um filtro para celecionar 
+          oque for determinada ex(imagens, pdfs etc) -->
+          <!-- application/pdf (para PDFs) 
+          image/* (para arquivos de imagens)-->
+        <input type="file" name="photo" accept="image/*">
+      </label><br>
     </fieldset>
-    
+
     <input type="submit" value="Cadastro">
   </form>
 </body>
+
 </html>
