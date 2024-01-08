@@ -1,0 +1,44 @@
+label{
+  display: block;
+  margin-bottom: 20px;
+}
+  /* outline: 0; tira a marcacao de borda ao clicar dento de uma textarea */
+
+input[type=text], textarea, select{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  width: 500px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  outline: 0;
+}
+/* textarea = area de texto */
+textarea{
+  height: 200px;
+  resize: none;
+}
+
+select{
+  height: 40px;
+}
+.textolink{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.textolink:hover{
+  text-decoration: underline;
+}
+
+button{
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 8px;
+}
+button:hover{
+  background-color: #ddd;
+  color: #900;
+}

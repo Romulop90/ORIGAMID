@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
@@ -33,39 +34,58 @@
 
     <!-- size="2" multiple e para multipla escolha e selected e o atibuto para deixar 
       aquela opcao em primeira escolha -->
+
     <select name="order" id="" size="2" multiple> <!-- mostra as opcoes deponiveis -->
-      <option value="bestseller ">Mais Vendidos</option>
+      <option value="bestseller ">Mais Vendidos</option> <!-- value e oque vai aparecer na bara ao enviar  -->
       <option value="last" selected>Recentes</option>
     </select>
 
+    <!-- Diferenca de button para o submit e que o button pode ser 
+      usado tanto dentro de formulario(form) quanto fora dele, 
+      para outras acoes especificas -->
+    <button>clique aqui</button>
 
   </form>
 
   <!-- sempre prencher o name -->
   <form action="">
     <textarea name="descricao" id="" cols="30" rows="10"></textarea>
-    
-    <!-- Diferenca de button para o submit e que o button pode ser 
-      usado tanto dentro de formulario(form) quanto fora dele, 
-      para outras acoes especificas -->
-    <button>clique aqui</button>
+
   </form>
   <br>
   <form action="">
-      <!-- label cria um rotolo -->
-      <label for="nome">Nome Completo:</label>
+    <!-- label cria um rotolo -->
+    <label for="nome">
+      Nome Completo:<br>
       <input type="text" name="" id="nome">
+    </label>
 
+    <br>
     <!-- forma 1 de usar o label (geralmente essa e a mas usada) -->
+    <label for="click">
       <input type="checkbox" id="click">
-      <label for="click">Eu declaro que li e aceito os termos de uso. </label>
+      Eu declaro que li e aceito os <a href="#" class="textolink">termos de uso</a>.
+    </label>
 
     <!-- forma 2 de usar o label -->
-      <label>
-        Nome Completo:
-        <input type="text" name="nome">
-      </label>
-
+    <br>
+    <label>
+      Nome Completo:<br>
+      <input type="text" name="nome">
+    </label>
+    <br>
+    <label>
+      categoria:<br>
+      <select>
+        <option value="1">categoria 1</option>
+        <option value="2">categoria 2</option>
+        <option value="3">categoria 3</option>
+        <option value="4">categoria 4</option>
+        <option value="5">categoria 5</option>
+      </select>
+    </label>
+    <br>
+    <button>clique aqui</button>
   </form>
 </body>
 
