@@ -62,5 +62,22 @@ header{
 
 .menu li a:hover, .menu .active a{
   border-bottom: 5px solid #b28756;
+  color: #ccc;
 }
 
+/* main */
+.banner{
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url('../imagens/bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.banner .sliders{
+
+}
+
+.banner .slide{
+  
+}
