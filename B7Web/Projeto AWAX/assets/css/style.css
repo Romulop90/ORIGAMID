@@ -127,14 +127,16 @@ header{
   font-size: 13px;
 }
 
-.sliders-pointers {
+/* slides */
+.banner .sliders-pointers {
   width: 100vw;
   height: 20px;
   position: absolute;
   margin-top: -50px;
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
+
 }
 
 .banner .pointer{
