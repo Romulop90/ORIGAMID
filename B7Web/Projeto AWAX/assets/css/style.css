@@ -63,9 +63,23 @@ header{
   border-bottom: 5px solid #000;
 }
 
-.menu li a:hover, .menu .active a{
+.menu li a:hover, 
+.menu .active a{
   border-bottom: 5px solid #b28756;
   color: #ccc;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #b28756;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 /* main */
@@ -115,18 +129,7 @@ header{
   margin-top: 20px;
 }
 
-.banner a {
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: #b28756;
-  color: #fff;
-  padding: 10px 30px;
-  margin-top: 40px;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 13px;
-}
+
 
 /* slides */
 .banner .sliders-pointers {
@@ -208,4 +211,49 @@ header{
 /* CSS de areas especificas */
 .section-aboutus{
   display: flex;
+}
+
+.section-aboutus--left{
+  flex: 1;
+}
+
+.section-aboutus--left p{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.section-aboutus--right{
+  width: 520px;
+  text-align: center;
+}
+
+.section-aboutus--right img{
+  width: 480px;
+  box-shadow: 0px 5px 10px #000;
+}
+
+.section-services {
+  display: flex;
+}
+
+.section-service{
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #333;
+  padding: 15px;
+}
+.section-service:first-child{
+  border-left: 1px solid #333;
+}
+
+.section-service h4 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.section-service p{
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
 }
