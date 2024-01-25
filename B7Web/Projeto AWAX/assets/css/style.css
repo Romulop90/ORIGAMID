@@ -299,3 +299,64 @@ header{
 .section-Projects--filters .active{
   border-bottom: 3px solid #b28756;
 }
+
+/* photos area */
+.section-Projects--photos{
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-Projects--photo{
+  width: 280px;
+}
+
+.section-Projects--photoarea{
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+}
+
+.section-Projects--photo img{
+  width: inherit;
+  height: inherit;
+}
+
+.section-Projects--photoinfo{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  height: inherit;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.section-Projects--photoinfo h5{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-Projects--photoarea:hover .section-Projects--photoinfo{
+  display: flex;
+}
+
+/* Equipe */
+.bg-team{
+  background-image: url('../imagens/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.section-team-area{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
