@@ -363,7 +363,7 @@ header{
 
 .section-team{
   overflow:hidden;
-  max-width: 900px;
+  max-width: 910px;
   margin: auto;
 }
 
@@ -373,7 +373,7 @@ header{
 }
 
 .section-team .slide{
-  width: 250px;
+  width: 280px;
   height: 100%;
   min-height: 300px;
   display: inline-block;
