@@ -1,3 +1,6 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 body{
   margin: 0px;
   padding: 0px;
@@ -91,7 +94,29 @@ justify-content: center;
   margin-top: 30px;
 }
 
-.cbanner_options{
+.banner_options{
   height: 210px;
+  display: flex;
 }
 
+.banner1, .banner2, .banner3 {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+}
+
+.banner1{
+  background: #39aae1;
+}
+
+.banner2{
+  background: #0079c7;
+}
+
+.banner3{
+  background: #2b4c99;
+}
+
+.banner_title{
+  font-size: 21px;
+}
