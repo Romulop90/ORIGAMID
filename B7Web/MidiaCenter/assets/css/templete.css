@@ -34,6 +34,7 @@ nav ul,nav li{
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 nav ul{
@@ -46,6 +47,7 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   color: #727272;
+  font-size: 0.8rem;
 }
 
 nav .active a, nav a:hover{
@@ -119,4 +121,30 @@ justify-content: center;
 
 .banner_title{
   font-size: 21px;
+}
+
+.banner_desc{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner_options a{
+  display: inline-block;
+  border:  1px solid #fff;
+  padding: 5px;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner_data{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  1px solid #ffffff4d;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
 }
