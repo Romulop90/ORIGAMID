@@ -290,6 +290,7 @@ footer .widget_title_text{
   line-height: 40px;
   color: #5c5c5c;
   font-size: 12px;margin-top: 30px;
+  font-weight: 600;
 }
 
 .footer_menu a {
@@ -303,10 +304,6 @@ footer .widget_title_text{
 .fm_news{
   padding: 20px 0px 0px 20px;
   font-size: 25px;
-}
-
-.footer_copy{
-  font-weight: 600;
 }
 
 .copy{
