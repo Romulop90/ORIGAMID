@@ -1,0 +1,8 @@
+.container{
+  display: grid;
+}
+
+.item {
+  background-color: #00f;
+  border-radius: 10px;
+}
