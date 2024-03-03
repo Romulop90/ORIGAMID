@@ -183,6 +183,28 @@ justify-content: center;
   margin-bottom: 10px;
 }
 
+.widget_body{
+  justify-content: center;
+}
+
+.widget_body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.depar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.department{
+  width: 150px;
+  height: 150px;
+  margin: 15px 15px 0px 0px;
+  background-color: #36a9e1;
+}
+
 .flex{
   display: flex;
   flex-wrap: wrap;
