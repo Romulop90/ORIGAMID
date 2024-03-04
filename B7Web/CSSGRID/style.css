@@ -1,8 +1,11 @@
 .container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 10px 15px ;
-
+  grid-template-areas:
+    "item1 item1 item2"
+    "item3 item4 item2"
+  ;
 }
 
 .item {
@@ -12,4 +15,31 @@
   color: #fff;
   font-size: 20px;
   text-align: center;
+}
+
+
+/* .item6{
+  
+  1.grid-row-start
+  2.grid-column-start
+  3.grid-rorw-end
+  4.grid-column-end
+ 
+  grid-area: 4 / 2 / 6 / 4;
+} */
+
+
+.item1{
+  grid-area: item1;
+}
+
+.item2{
+  grid-area: item2;
+
+}
+.item3{
+  grid-area: item3;
+}
+.item4{
+  grid-area: item4;
 }
