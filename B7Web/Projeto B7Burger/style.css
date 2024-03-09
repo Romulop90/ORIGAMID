@@ -101,6 +101,104 @@ header .menu-icon div{
   background-color: #fff;
 }
 
+/* hero area */
+.hero .container{
+  display: flex;
+}
+
+.hero .leftside, 
+.hero .rightside{
+  flex: 1;
+}
+
+.hero .leftside {
+  padding-bottom: 150px;
+}
+
+.hero .rightside{
+  text-align: center;
+}
+
+.hero .rightside img{
+  width: auto;
+  height: 600px;
+}
+
+.hero h1{
+  font-family: 'Calistoga';
+  font-size: 72px;
+  line-height: 74px;
+  margin-top: 50px;
+}
+
+.hero p{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 40px 0;
+}
+
+.hero .button{
+ display: inline-block;
+ background-color: #fe6a0f;
+ font-weight: 500;
+ color: #fff;
+ padding: 15px 80px;
+ border-radius: 5px;
+ text-decoration: none;
+}
+
+.hero .button:hover{
+  opacity: 0.8;
+}
+/* SEARCH */
+.search{
+  background-color: #1f1f1f;
+  padding: 80px 0;
+  margin-top: -100px;
+}
+
+.search .title{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.search .sides{
+  display: flex;
+  margin-top: 30px;
+  gap: 100px;
+}
+
+.search .leftside, 
+.search .rightside{
+  flex: 1;
+}
+
+.search input,
+.search select{
+  width: 100%;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.search input{
+  background-image: url(assets/searchIcon.png);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  padding-left: 60px;
+}
+
+.search select{
+  border-right: 20px solid transparent;
+}
+
+
+
+/* hearder resposnsivo */
 @media (max-width: 820px){
   header nav{
     display: none;
@@ -108,5 +206,40 @@ header .menu-icon div{
 
   header .menu{
     display: flex;
+  }
+
+/* hero area responsivo */
+  .hero .container{
+    flex-direction: column;
+  }
+
+  .hero .leftside{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .hero .rightside{
+    padding-bottom: 30px;
+  }
+
+  .hero .rightside img{
+    height: 300px;
+  }
+
+  .hero h1{
+    font-size: 44px;
+    line-height: 50px
+  }
+
+  .search{
+    padding-bottom: 30px;
+  }
+  .search .title{
+    text-align: center;
+  }
+
+  .search .sides{
+    flex-direction: column;
+    gap: 20px;
   }
 }
