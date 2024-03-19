@@ -27,3 +27,20 @@
 // let nomed = "bony"
 // console.log(nomed)
 
+let isMember = true;
+
+let shipping = isMember ? 2 : 10;
+
+console.log(isMember ? 'voce e membro ' : 'voce nao de membro')
+console.log("Frete: " + shipping);
+
+let profession = "atleta";
+
+console.log("Profissão: " + Profession);
+
+switch (profession) {
+  casa 'fiscal';
+    console.log('Sua camisa sera verde')
+    break;
+    case"bomber";
+}
