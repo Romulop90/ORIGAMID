@@ -1,7 +1,8 @@
 var nome = window.prompt('qual é seu nome?')
-document.write(`Ola, <strong>${nome}</strong>! Seu nome tem ${nome.length}`)
-document.write(`Seu nome em maiusculas é ${nome.toLocaleUpperCase()}<br/>`)
-document.write(`Seu nome em Mausculo e ${nome.toLocaleLowerCase()}`)
+document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+document.write(`Seu nome em Mausculo é ${nome.toUpperCase()}<br/>`)
+document.write(`Seu nome em maiúsculas e ${nome.toLowerCase()}<br/>`)
+document.write(`Sua comida favorita e ${nome.toLowerCase()}`)
 
 // > var n1 = 1545.5
 // > n1
