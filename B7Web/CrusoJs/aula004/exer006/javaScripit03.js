@@ -7,7 +7,7 @@ window.alert(`A soma entre ${n1} e ${n2} e igual a ${s}`)
 // (string + string) + para concatenação
 
 /*
-vormatação String
+formatação String
 'eu estou aprendendo s' nao faz interpolaçao
 'eu estou aprendendo' + s usa concatenaçao
 `eu estou aprendendo ${s}` usa template string
