@@ -11,3 +11,17 @@ document.write(`Sua comida favorita e ${nome.toLowerCase()}`)
 // '1545.50'
 // > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 // 'R$ 1.545,50'
+
+
+let nomeDoCarro = "Ferrari"
+let preço = 19.99
+let cidade = "São Paulo"
+
+console.log(nomeDoCarro)
+console.log(preço)
+console.log(cidade)
+
+let x = 0;
+x = x + 8;
+
+console.log(x);
