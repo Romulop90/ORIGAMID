@@ -19,17 +19,31 @@ formatação String
 // let nomeCompleto = `${nome} ${sobrenome}`;
 // console.log("nome: " + nomeCompleto);
 
-let idade = 90;
+// let idade = 90;
 
-if (idade > 17) {
-  console.log("voce e maior de idade.");
-} else {
-  console.log("voce Menor de idade.");
+// if (idade > 17) {
+//   console.log("voce e maior de idade.");
+// } else {
+//   console.log("voce Menor de idade.");
+// }
+
+// > MAIOR QUE
+// < MENOR QUE
+// == IGUAL A
+// >= MAIOR OU IGUAL A
+// <= MENOR OU IGUAL A
+// != DIFERENTE DE
+// !== NÀO IDÊNTICO
+// && E/and
+// || ou/or
+
+let idade = 40;
+// idade (idade >= 18){
+//   if (idade < 60){
+//     console.log("voce e um adul")
+//   }
+// }
+
+if (idade >= 18 && idade < 60) {
+  console.log("Voce e um adulto.");
 }
-
-// >
-// <
-// ==
-// >=
-// <=
-// !=
