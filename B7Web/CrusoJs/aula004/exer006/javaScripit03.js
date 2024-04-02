@@ -36,6 +36,8 @@ formatação String
 // !== NÀO IDÊNTICO
 // && E/and
 // || ou/or
+// else caso contrario
+// if função de verificar verdadeiro ou falso (+ ou -)
 
 let idade = 40;
 // idade (idade >= 18){
