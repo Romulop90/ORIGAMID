@@ -8,3 +8,30 @@ body {
   margin: 0 auto;
   max-width: 1120px;
 }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.cabecalho .logo{
+  background-color: orange;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-decoration: underline;
+  text-align: center;
+  line-height: 55px;
+
+  font-family: "Raleway", sans-serif;
+  transition: 0.2s;
+}
+
+.cabecalho a:hover .logo{
+  color: #9443d8;
+  border: 2px solid #9443d8;
+}
+
