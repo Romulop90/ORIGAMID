@@ -31,5 +31,10 @@ let isMember = true;
 
 let shipping = isMember ? 2 : 10;
 
-console.log(isMember ? 'voce e membro ' : 'voce nao de membro')
+console.log(isMember ? "voce e membro " : "voce nao de membro");
 console.log("Frete: " + shipping);
+
+let x = 30;
+let y = 25;
+console.log(x > y);
+

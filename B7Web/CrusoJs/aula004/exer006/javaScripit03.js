@@ -42,7 +42,7 @@ formatação String
 let idade = 40;
 // idade (idade >= 18){
 //   if (idade < 60){
-//     console.log("voce e um adul")
+//     console.log("voce e um adulto")
 //   }
 // }
 
