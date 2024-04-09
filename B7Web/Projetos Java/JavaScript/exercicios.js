@@ -26,21 +26,29 @@
 // console.log(number ? "Voce é membro" : "Voce não é membro");
 // console.log("Frete: " + shipping);
 
-let profession = "Fiscal" || "fiscal";
+// let profession = "Fiscal" || "fiscal";
 
-console.log("Profissão: " + profession);
+// console.log("Profissão: " + profession);
 
-switch (profession) {
-  case "fiscal":
-    console.log("Sua camisa sera VERDE");
-    break;
-  case "bombeiro":
-    console.log("Sua camisa sera AZUL");
-    break;
-  case "jogador":
-    console.log("Sua camisa sera VERMELHO");
-    break;
-  default:
-    console.log("Sua camisa sera PRETA");
-    break;
+// switch (profession) {
+//   case "fiscal":
+//     console.log("Sua camisa sera VERDE");
+//     break;
+//   case "bombeiro":
+//     console.log("Sua camisa sera AZUL");
+//     break;
+//   case "jogador":
+//     console.log("Sua camisa sera VERMELHO");
+//     break;
+//   default:
+//     console.log("Sua camisa sera PRETA");
+//     break;
+// }
+
+function somar(n1, n2, n3, n4) {
+  let resultado = n1 + n2 - n3 + n4;
+  console.log("Resultado: " + resultado);
 }
+
+somar(32, 35, 25, 35);
+somar(44, 55, 88, 99)
