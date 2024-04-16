@@ -45,10 +45,19 @@
 //     break;
 // }
 
-function somar(n1, n2, n3, n4) {
-  let resultado = n1 + n2 - n3 + n4;
-  console.log("Resultado: " + resultado);
+// function somar(n1, n2, n3, n4) {
+//   let resultado = n1 + n2 - n3 + n4;
+//   console.log("Resultado: " + resultado);
+// }
+
+// somar(32, 35, 25, 35);
+// somar(44, 55, 88, 99);
+
+function calcPct(n1, n2) {
+  return (n1 / n2) * 100;
 }
 
-somar(32, 35, 25, 35);
-somar(44, 55, 88, 99)
+let x = 40;
+let y = 25;
+let pct = calcPct(x, y);
+console.log(`${pct}% de ${x} e ${y}`);
