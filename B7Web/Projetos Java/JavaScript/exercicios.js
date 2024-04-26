@@ -61,3 +61,6 @@ let x = 40;
 let y = 25;
 let pct = calcPct(x, y);
 console.log(`${pct}% de ${x} e ${y}`);
+
+var nome = prompt("Qual e o seu nome");
+alert("É um grande prazer em te conhecer, " + nome + "!");
