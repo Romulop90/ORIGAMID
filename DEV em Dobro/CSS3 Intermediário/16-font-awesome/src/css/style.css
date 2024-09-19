@@ -1,0 +1,18 @@
+.fa-facebook {
+  color: orange;
+  font-size: 50px;
+}
+
+.fa-facebook:hover {
+  color: red;
+}
+.fa-instagram {
+  color: rgb(60, 14, 189);
+  font-size: 50px;
+}
+
+.fa-instagram:hover {
+  color: rgb(52, 201, 33);
+  
+}
+

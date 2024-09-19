@@ -26,6 +26,20 @@ body {
   text-decoration: none;
 }
 
+.cabecalho nav li a:visited {
+  color: blue;
+}
+
+.cabecalho nav li a:focus {
+  color: burlywood;
+}
+
+.cabecalho nav li a:hover {
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 5px 3px;
+}
+
 main {
   background-color: white;
   padding: 30px;
@@ -46,7 +60,7 @@ main p {
   width: 100%;
 }
 
-@media (max-width: 576px) {
+ @media (max-width: 576px) {
   .cabecalho {
     text-align: center;
   }
@@ -59,3 +73,4 @@ main p {
     display: block;
   }
 }
+

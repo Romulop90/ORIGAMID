@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens responsivas usando a tag picture</title>
+</head>
+
+<body>
+  <h1>Picture com mobile first</h1><!--começa da menor imagem para o maior-->
+  <!-- <picture>
+      <source media="(min-width: 768px)" srcset="https://placekitten.com/850/850"/>
+      <source media="(min-width: 465px)" srcset="https://placekitten.com/450/450"/>
+      <img src="https://placekitten.com/375/375" alt="Imagem de um gatinho">
+  </picture> -->
+  <h1>Picture com desktop first</h1><!--começa da maior imagem para a menor-->
+  <picture>
+    <source media="(max-width: 425px)" srcset="https://via.placeholder.com/350x350.png/a59090/000000?Text=350x350" />
+    <source media="(max-width: 768px)" srcset="https://via.placeholder.com/500x500.png/a59090/000000?Text=500x500" />
+    <img src="https://via.placeholder.com/1024x800.png/a59090/000000?Text=1024x800" alt="Imagem de um gatinho">
+
+    <!-- media="(max-width: 425px)" serve para dizer em qual ponto 
+       vai ser mostrado ou carregada a imagem que nos definimos  
+       
+       (srcset=) e o caminho da imagem
+       -->
+  </picture>
+</body>
+
+</html>
