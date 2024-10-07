@@ -1,0 +1,39 @@
+/* seletor::pseudo-elemento{
+  propriedade:valor;
+} */
+
+.first-letter::first-letter {
+  /*estiliza a primeira letra do elemento*/
+  color: coral;
+  font-size: 36px;
+  font-style: italic;
+}
+.first-line::first-line {
+  /*estiliza a primeira linha do elemento*/
+  color: blueviolet;
+}
+
+.first-line::first-letter {
+  color: crimson;
+  font-size: 36px;
+  font-style: italic;
+}
+
+li::marker {
+  color: red;
+  font-size: 23px;
+}
+
+.before::before {
+  /*antes do conteúdo*/
+  content: "";
+  background: url(images/21362697191661247270-20.png) center center no-repeat;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+
+.after::after {
+  /*depois do conteúdo*/
+  content: url(images/9373104291661247011-24.png);
+}

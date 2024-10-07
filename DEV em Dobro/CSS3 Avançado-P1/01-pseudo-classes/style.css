@@ -1,0 +1,31 @@
+/* seletor:pseudo-classe {
+  propriedade: valor;
+} */
+
+p:first-child{ /*no primeiro filho de uma div*/
+  color: blueviolet;
+}
+p:last-child{ /*no ultimo filho de uma div*/
+  color: rgb(60, 97, 23);
+}
+
+p:not(.padrao){
+  color: chocolate;
+}
+
+li:nth-child(even){/*even = pares*/
+  color: brown;
+}
+li:nth-child(odd){ /*odd = impares*/
+  color: coral;
+}
+li:nth-child(3n){ /*3n = vai estilizar de 3 em3 da lista*/
+  color:  blue;
+}
+ol li:nth-last-child(1){ /*começa a estilizar do fim*/
+  color: burlywood;
+}
+
+p:only-child{
+  color: seagreen;
+}

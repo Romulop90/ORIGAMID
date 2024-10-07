@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+}
+
+.container div {
+  background-color: aqua;
+  color: rgb(20, 17, 17);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
